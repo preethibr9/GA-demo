@@ -1,0 +1,7 @@
+name:  demo-1
+on: workflow_dispatch
+jobs: 
+     this-is-my-first-job:
+     runs-on: ubuntu:latest
+     steps:
+          -run: echo "welcome to github action"
